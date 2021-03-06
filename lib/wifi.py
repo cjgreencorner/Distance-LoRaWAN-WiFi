@@ -17,7 +17,7 @@ _date_   = "2021-02-24"
 _status_ = "Finished"
 
 #CONFIGURATIONS
-aio_key = "aio_xIWN33b5fAmq5P1a4MBHnHmTIr47"
+aio_key = "??"
 username = "cj_greencorner"
 feed_name = "distance"
 
