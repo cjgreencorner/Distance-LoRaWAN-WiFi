@@ -24,8 +24,8 @@ def connect():
     lora = LoRa(mode=LoRa.LORAWAN, region=LoRa.EU868)
 
     # create an OTAA authentication parameters, change them to the provided credentials
-    app_eui = ubinascii.unhexlify('70B3D57ED003E4D8')
-    app_key = ubinascii.unhexlify('92FC14552303B706EABEC67C263E8CE3')
+    app_eui = ubinascii.unhexlify('?')
+    app_key = ubinascii.unhexlify('?')
     lora.join(activation=LoRa.OTAA, auth=(app_eui, app_key), timeout=0)
 
     while not lora.has_joined():
